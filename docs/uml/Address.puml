@@ -1,0 +1,12 @@
+@startuml
+class Address {
+- street : String
+- city : String
+- postcode : String
++ Address()
++ Address(street : String, city : String, postcode : String)
++ getStreet() : String
++ getCity() : String
++ getPostcode() : String
+}
+@enduml
