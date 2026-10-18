@@ -1,0 +1,9 @@
+@startuml
+class ProductController {
+ - productService : ProductService
+ + getAllProducts() : List<Product>
+ + getProductById(id : Long) : Product
+ + addProduct(product : Product) : Product
+ + deleteProduct(id : Long) : void
+}
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+class ProductService {
+ - products : List<Product>
+ - nextId : Long
+ + getAllProducts() : List<Product>
+ + getProductById(id : Long) : Optional<Product>
+ + addProduct(product : Product) : Product
+ + deleteProduct(id : Long) : void
+ + findByName(name : String) : List<Product>
+}
+@enduml
