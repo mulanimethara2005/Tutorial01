@@ -1,0 +1,10 @@
+@startuml
+
+class DigitalProduct {
+- downloadUrl : String
+- fileSizeMB : double
++ getDownloadUrl() : String
+
+}
+@enduml
+
